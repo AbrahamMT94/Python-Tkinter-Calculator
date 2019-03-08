@@ -1,6 +1,6 @@
 def float_bin(number): 
     #split the number
-    whole, dec = str(number).split(".") 
+    whole, dec = str(float(number)).split(".") 
     
     #convert all vals to integers
     whole = int(whole) 
